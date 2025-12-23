@@ -3,11 +3,11 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "fastapi-starter"
-version = "0.1.0"
+name = "fastapi-pro-temp-generator"
+version = "0.1.2"
 description = "A simple CLI tool to generate a clean FastAPI project structure."
 authors = [
-    { name = "FastAPI Starter Author", email = "lakumbhavdip555@gmail.com" },
+    { name = "Bhavdip", email = "lakumbhavdip555@gmail.com" },
 ]
 license = { text = "MIT" }
 readme = "README.md"
