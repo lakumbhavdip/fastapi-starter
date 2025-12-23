@@ -7,7 +7,7 @@ name = "fastapi-starter"
 version = "0.1.0"
 description = "A simple CLI tool to generate a clean FastAPI project structure."
 authors = [
-    { name = "FastAPI Starter Author", email = "author@example.com" },
+    { name = "FastAPI Starter Author", email = "lakumbhavdip555@gmail.com" },
 ]
 license = { text = "MIT" }
 readme = "README.md"
@@ -23,8 +23,8 @@ dependencies = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/yourusername/fastapi-starter"
-"Bug Tracker" = "https://github.com/yourusername/fastapi-starter/issues"
+"Homepage" = "https://github.com/lakumbhavdip/fastapi-starter"
+"Bug Tracker" = "https://github.com/lakumbhavdip/fastapi-starter/issues"
 
 
 [project.scripts]
