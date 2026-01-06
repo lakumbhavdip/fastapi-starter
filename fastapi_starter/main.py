@@ -22,7 +22,10 @@ def main(project_name):
         # Write files from templates
         templates = {
             "main.py": "app/main.py",
-            "routes.py": "app/api/routes.py",
+            "routes.py": "app/modules/users/routes.py",
+            "models.py": "app/modules/users/models.py",
+            "schemas.py": "app/modules/users/schemas.py",
+            "services.py": "app/modules/users/services.py",
             "config.py": "app/core/config.py",
             "test_main.py": "tests/test_main.py",
             "env": ".env",

@@ -4,11 +4,8 @@ from pathlib import Path
 def create_project_structure(base_path: Path):
     """Creates the base FastAPI project structure."""
     folders = [
-        "app/api",
         "app/core",
-        "app/models",
-        "app/schemas",
-        "app/services",
+        "app/modules/users",
         "tests",
     ]
     for folder in folders:

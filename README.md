@@ -34,11 +34,13 @@ This will create a `my_awesome_app/` directory with the following structure:
 my_awesome_app/
 ├── app/
 │   ├── main.py          # Entry point
-│   ├── api/             # API routes
 │   ├── core/            # Configuration
-│   ├── models/          # Database models
-│   ├── schemas/         # Pydantic models
-│   └── services/        # Business logic
+│   └── modules/         # Feature-based modules
+│       └── users/       # Example module
+│           ├── routes.py
+│           ├── models.py
+│           ├── schemas.py
+│           └── services.py
 ├── tests/               # Unit tests
 ├── .env                 # Environment variables
 ├── .gitignore          
